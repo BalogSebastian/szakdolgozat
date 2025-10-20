@@ -1,13 +1,11 @@
 @import "tailwindcss";
 
-/* Alap: fekete háttér, halvány fehér előtér */
 :root {
-  --background: #000000;     /* fekete */
-  --foreground: #e7e7e7;     /* lágy fehér */
-  --lila-sotet: #2b1e54;     /* akcent */
+  --background: #000000;     
+  --foreground: #e7e7e7;     
+  --lila-sotet: #2b1e54;     
 }
 
-/* Tailwind design tokenek (v4) */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -20,12 +18,7 @@
     Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/* Ha bármiért a rendszer világosra állítaná, maradjunk sötéten – nem kötelező: */
-/*
-@media (prefers-color-scheme: dark) {
-  :root { --background: #000000; --foreground: #e7e7e7; }
-}
-*/
+
 
 body {
   background: var(--background);
