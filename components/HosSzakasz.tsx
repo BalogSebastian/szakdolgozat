@@ -34,10 +34,10 @@ export default function HosSzakasz() {
 
       <div className="absolute inset-x-0 bottom-0 grid grid-cols-1 gap-6 px-6 pb-6 sm:grid-cols-2 sm:px-10">
         <div className="max-w-sm text-sm text-zinc-300">
-          Timeless elegance for a new generation
+        Kortalan, modern elegancia
         </div>
         <div className="max-w-sm text-sm text-zinc-300 sm:justify-self-end">
-          Discover music that shapes how you feel — not only what you hear.
+        Zene, ami nemcsak a füledhez szól, hanem a lelkedhez is
         </div>
       </div>
     </section>
