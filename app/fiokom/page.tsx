@@ -191,7 +191,7 @@ export default function FiokomOldal() {
             </label>
           </div>
 
-          <div className="mt-5 flex items-center gap-3">
+          <div className="mt-5 flex flex-wrap items-center gap-3">
             <button
               onClick={bekuldFeltoltes}
               disabled={!ervenyesFeltoltes || toltes}
@@ -199,6 +199,14 @@ export default function FiokomOldal() {
             >
               Feltöltés
             </button>
+
+            {/* Deezer gomb */}
+            <a
+              href="/deezer"
+              className="rounded-full border border-white/10 px-4 py-2 text-sm hover:border-white/20 hover:bg-white/10 transition"
+            >
+              🎵 Új playlist készítése Deezerből
+            </a>
 
             {toltes && <span className="text-sm text-zinc-300">Feltöltés folyamatban…</span>}
             {uzenet && <span className="text-sm text-emerald-300">{uzenet}</span>}
