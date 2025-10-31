@@ -54,7 +54,7 @@ export default function FejlecSav() {
         */}
         <div className="flex items-center gap-4 sm:gap-5">
           <Link
-            href="#belepes"
+            href="belepes"
             className="uppercase tracking-wide text-lg sm:text-xl text-zinc-100 hover:text-white transition"
           >
             Bejelentkezés
@@ -75,7 +75,7 @@ export default function FejlecSav() {
           */}
           
           <Link
-            href="#regisztracio"
+            href="regisztracio"
             className="
               relative inline-flex items-center justify-center
               uppercase tracking-wide text-lg sm:text-xl
